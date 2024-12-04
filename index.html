@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+       background-color: aquamarine;
+       padding: 80px;
+       display: grid;
+       grid-template-areas: "area1 area2 area3"
+       "area4 area6 area6"
+       "area5 area6 area6";
+       grid-template-rows: 100px 100px 100px;
+       gap: 10px;
+       width: 500px;
+    }
+    .div1{
+        background-color: blueviolet;
+        grid-area: area1;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div2{
+        background-color: chartreuse;
+        grid-area: area2;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div3{
+        background-color: wheat;
+        grid-area: area3;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div4{
+        background-color: gray;
+        grid-area: area4;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div5{
+        background-color: tomato;
+        grid-area: area5;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div6{
+        background-color: chocolate;
+        grid-area: area6;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .div7{
+        background-color: red;
+        grid-area: area7;
+        display: grid;
+    }
+    .div8{
+        background-color:black;
+        grid-area: area8;
+        display: grid;
+    }
+
+    .gd{
+        display: grid;
+        background-color: rgb(65, 39, 39);
+        grid-template-areas: "area1 area2 area2 area3"
+        "area1 area4 area5 area6"
+        "area1 area7 area8 area6";
+        grid-template-rows: 100px 100px 100px 100px;
+        gap: 10px;
+        width: 500px;
+        padding: 80px;
+        height: 320px;
+
+
+    }  
+
+</style>
+<body>
+    <div class="main">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>  
+        </div>
+    <div class="gd">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+        <div class="div7"></div>
+        <div class="div8"></div>    
+        </div>  
+   
+</body>
+</html>
